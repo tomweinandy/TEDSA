@@ -1,0 +1,31 @@
+{
+    'AGE': {
+        1: 'Age12To14',
+        2: 'Age15To17',
+        3: 'Age18To20',
+        4: 'Age21To24',
+        5: 'Age25To29',
+        6: 'Age30To34',
+        7: 'Age35To39',
+        8: 'Age40To44',
+        9: 'Age45To49',
+        10: 'Age50To54',
+        11: 'Age55To64',
+        12: 'Age65Plus,
+    }
+    'GENDER':{
+        1: 'Male'
+        2: 'Female'
+    }
+    'RACE': {
+        1: 'AmericanIndianOrAlaskaNative',
+        2: 'AmericanIndianOrAlaskaNative',
+        3: 'AsianOrPacificIslander',
+        4: 'Black',
+        5: 'White',
+        6: 'AsianOrPacificIslander',
+        7: 'OtherSingleRace',
+        8: 'TwoPlusRaces',
+        9: 'AsianOrPacificIslander'
+    }
+}
