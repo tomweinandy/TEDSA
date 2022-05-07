@@ -11,12 +11,12 @@
         9: 'Age45To49',
         10: 'Age50To54',
         11: 'Age55To64',
-        12: 'Age65Plus,
-    }
-    'GENDER':{
-        1: 'Male'
+        12: 'Age65Plus'
+    },
+    'GENDER': {
+        1: 'Male',
         2: 'Female'
-    }
+    },
     'RACE': {
         1: 'AmericanIndianOrAlaskaNative',
         2: 'AmericanIndianOrAlaskaNative',
@@ -27,5 +27,34 @@
         7: 'OtherSingleRace',
         8: 'TwoPlusRaces',
         9: 'AsianOrPacificIslander'
+    },
+    'ETHNICITY': {
+        1: 'PuertoRican',
+        2: 'Mexican',
+        3: 'CubanOrOther'
+        4: 'NonHispanic'
+        5: 'UnspecifiedHispanic'
+    },
+    'MARSTAT': {
+        1: 'NeverMarried',
+        2: 'NowMarried',
+        3: 'Separated',
+        4: 'DivorcedOrWidowed'
+    },
+    'EDUC': {
+        1: 'GradeOrLess',
+        2: 'Grade9To11',
+        3: 'Grade12OrGED',
+        4: '1To3yCollege'
+        5: '4yCollegePlus'
+    },
+    'EMPLOY': {
+        1: 'FullTime',
+        2: 'PartTime',
+        3: 'Unemployed',
+        4: 'NotInLaborForce'
+    },
+    '': {
+        ''
     }
 }
