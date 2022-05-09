@@ -28,11 +28,11 @@
         8: 'TwoPlusRaces',
         9: 'AsianOrPacificIslander'
     },
-    'ETHNICITY': {
+    'ETHNIC': {
         1: 'PuertoRican',
         2: 'Mexican',
-        3: 'CubanOrOther'
-        4: 'NonHispanic'
+        3: 'CubanOrOther',
+        4: 'NonHispanic',
         5: 'UnspecifiedHispanic'
     },
     'MARSTAT': {
@@ -45,7 +45,7 @@
         1: 'GradeOrLess',
         2: 'Grade9To11',
         3: 'Grade12OrGED',
-        4: '1To3yCollege'
+        4: '1To3yCollege',
         5: '4yCollegePlus'
     },
     'EMPLOY': {
@@ -54,7 +54,108 @@
         3: 'Unemployed',
         4: 'NotInLaborForce'
     },
+    'PREG': {
+        1: 'Pregnant',
+        2: 'NotPregnant'
+    },
+    'VET': {
+        1 : 'Veteran',
+        2 : 'NotVeteran'
+    },
+    'LIVARAG': {
+        1 : 'Homeless',
+        2 : 'DependLiving',
+        3 : 'IndependLiving'
+    },
+    'PRIMINC': {
+        1 : 'Wages',
+        2 : 'PublicAssist',
+        3 : 'RetireOrDisable',
+        4 : 'Other',
+        5 : 'None'
+    },
+    'ARRESTS': {
+        0 : '0Arrest',
+        1 : '1Arrest',
+        2 : '2PlusArrest',
+    },
+    'STFIPS': {
+        1: 'StateAL',
+        2: 'StateAK',
+        4: 'StateAZ',
+        5: 'StateAR',
+        6: 'StateCA',
+        8: 'StateCO',
+        9: 'StateCT',
+        10: 'StateDE',
+        11: 'StateDC',
+        12: 'StateFL',
+        13: 'StateGA',
+        15: 'StateHI',
+        16: 'StateID',
+        17: 'StateIL',
+        18: 'StateIN',
+        19: 'StateIA',
+        20: 'StateKS',
+        21: 'StateKY',
+        22: 'StateLA',
+        23: 'StateME',
+        24: 'StateMD',
+        25: 'StateMA',
+        26: 'StateMI',
+        27: 'StateMN',
+        28: 'StateMS',
+        29: 'StateMO',
+        30: 'StateMT',
+        31: 'StateNE',
+        32: 'StateNV',
+        33: 'StateNH',
+        34: 'StateNJ',
+        35: 'StateNM',
+        36: 'StateNY',
+        37: 'StateNC',
+        38: 'StateND',
+        39: 'StateOH',
+        40: 'StateOK',
+        42: 'StatePA',
+        44: 'StateRI',
+        45: 'StateSC',
+        46: 'StateSD',
+        47: 'StateTN',
+        48: 'StateTX',
+        49: 'StateUT',
+        50: 'StateVT',
+        51: 'StateVA',
+        54: 'StateWV',
+        55: 'StateWI',
+        56: 'StateWY'
+    },
     '': {
-        ''
+       : '',
     }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+    '': {
+       : '',
+    }
+
 }
