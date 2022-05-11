@@ -130,32 +130,277 @@
         55: 'StateWI',
         56: 'StateWY'
     },
+    'REGION': {
+        1 : 'Northeast',
+        2 : 'Midwest',
+        3 : 'South',
+        4 : 'West'
+    },
+    'DIVISION': {
+        1 : 'NewEngland',
+        2 : 'MiddleAtlantic',
+        3 : 'EastNorthCentral',
+        4 : 'WestNorthCentral',
+        5 : 'SouthAtlantic',
+        6 : 'EastSouthCentral',
+        7 : 'WestSouthCentral',
+        8 : 'Mountain',
+        9 : 'Pacific'
+    },
+    'SERVICES': {
+        1 : 'Detox24hHospitalInpatient',
+        2 : 'Detox24hFreeStandingRes',
+        3 : 'RehabResHospitalNonDetox',
+        4 : 'RehabResShortTerm',
+        5 : 'RehabResLongTerm',
+        6 : 'AmbulatoryIntensiveOutpatient',
+        7 : 'AmbulatoryNonIntensiveOutpatient',
+        8 : 'AmbulatoryDetox'
+    },
+    'METHUSE': {
+        1 : 'MethUse',
+        2 : 'NoMethUse'
+    },
+    'DAYWAIT': {
+        0 : '0DaysWait',
+        1 : '1DaysWait',
+        2 : '8To14DaysWait',
+        3 : '15To30DaysWait',
+        4 : '31PlusDaysWait'
+    },
+    'PSOURCE': {
+        1 : 'Individual',
+        2 : 'DrugCareProvider',
+        3 : 'OtherHealthCareProvider',
+        4 : 'School',
+        5 : 'Employer',
+        6 : 'OtherReferral',
+        7 : 'CourtReferral'
+    },
+    'NOPRIOR': {
+        0 : '0PriorTreatments',
+        1 : '1PriorTreatments',
+        2 : '2PriorTreatments',
+        3 : '3PriorTreatments',
+        4 : '4PriorTreatments',
+        5 : '5PlusPriorTreatments',
+    },
+    'SUB1': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE1': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ1': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE1': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'SUB2': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE2': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ2': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE2': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'SUB3': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE3': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ3': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE3': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'IDU': {
+        0 : 'NoIDU',
+        1 : 'IDU'
+    },
+    'ALCFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'COKEFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'MARFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'HERFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'METHFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OPSYNFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'PCPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'HALLFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'MTHAMFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'AMPHFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'STIMFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'BENZFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'TRNQFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'BARBFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'SEDHPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'INHPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OTCPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OTHERFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'ALCDRUG': {
+        0 : 'None',
+        1 : 'AlcoholOnly',
+        2 : 'OtherDrugs',
+        3 : 'Alcohol&Drugs'
+    },
     '': {
-       : '',
-    }
+         : '',
+    },
     '': {
-       : '',
-    }
+         : '',
+    },
     '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
-    '': {
-       : '',
-    }
+         : '',
+    },
 
 }
