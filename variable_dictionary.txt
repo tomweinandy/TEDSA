@@ -375,11 +375,11 @@
         0 : 'NotReported',
         1 : 'Reported'
     },
-    'INHPFLG': {
+    'INHFLG': {
         0 : 'NotReported',
         1 : 'Reported'
     },
-    'OTCPFLG': {
+    'OTCFLG': {
         0 : 'NotReported',
         1 : 'Reported'
     },
@@ -393,14 +393,51 @@
         2 : 'OtherDrugs',
         3 : 'Alcohol&Drugs'
     },
-    '': {
-         : '',
+    'DSMCRIT': {
+        1 : 'AlcoholDisorder',
+        2 : 'SubstanceDisorder',
+        3 : 'AlcoholIntoxication',
+        4 : 'AlcoholDependence',
+        5 : 'OpioidDependence',
+        6 : 'CocaineDependence',
+        7 : 'CannabisDependence',
+        8 : 'OtherSubstanceDependence',
+        9 : 'AlcoholAbuse',
+        10 : 'CannabisAbuse',
+        11 : 'OtherSubstanceAbuse',
+        12 : 'OpioidAbuse',
+        13 : 'CocaineAbuse',
+        14 : 'AnxietyDisorder',
+        15 : 'DepressiveDisorder',
+        16 : 'SchizopheniaOrPsychDisorder',
+        17 : 'BipolarDisorder',
+        18 : 'ADDOrBehaviorDisorder',
+        19 : 'OtherMentalHealthCondition'
     },
-    '': {
-         : '',
+    'PSYPROB': {
+        1 : 'Yes',
+        2 : 'No'
     },
-    '': {
-         : '',
+    'HLTHINS': {
+        1 : 'PrivateInsurance',
+        2 : 'Medicaid',
+        3 : 'MedicareOrOther',
+        4 : 'None'
     },
-
+    'PRIMPAY': {
+        1 : 'SelfPay',
+        2 : 'PrivateInsurance',
+        3 : 'Medicare',
+        4 : 'Medicaid',
+        5 : 'OtherGovtPayment',
+        6 : 'NoCharge',
+        7 : 'Other'
+    },
+    'FREQ_ATND_SELF_HELP': {
+        1 : 'NoAttendance',
+        2 : '1To3TimesPastMonth',
+        3 : '4To7TimesPastMonth',
+        4 : '8To30TimesPastMonth',
+        5 : 'SomeAttendance'
+    }
 }
