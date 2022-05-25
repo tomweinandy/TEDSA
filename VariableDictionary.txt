@@ -1,0 +1,443 @@
+{
+    'AGE': {
+        1: 'Age12To14',
+        2: 'Age15To17',
+        3: 'Age18To20',
+        4: 'Age21To24',
+        5: 'Age25To29',
+        6: 'Age30To34',
+        7: 'Age35To39',
+        8: 'Age40To44',
+        9: 'Age45To49',
+        10: 'Age50To54',
+        11: 'Age55To64',
+        12: 'Age65Plus'
+    },
+    'GENDER': {
+        1: 'Male',
+        2: 'Female'
+    },
+    'RACE': {
+        1: 'AmericanIndianOrAlaskaNative',
+        2: 'AmericanIndianOrAlaskaNative',
+        3: 'AsianOrPacificIslander',
+        4: 'Black',
+        5: 'White',
+        6: 'AsianOrPacificIslander',
+        7: 'OtherSingleRace',
+        8: 'TwoPlusRaces',
+        9: 'AsianOrPacificIslander'
+    },
+    'ETHNIC': {
+        1: 'PuertoRican',
+        2: 'Mexican',
+        3: 'CubanOrOther',
+        4: 'NonHispanic',
+        5: 'UnspecifiedHispanic'
+    },
+    'MARSTAT': {
+        1: 'NeverMarried',
+        2: 'NowMarried',
+        3: 'Separated',
+        4: 'DivorcedOrWidowed'
+    },
+    'EDUC': {
+        1: 'GradeOrLess',
+        2: 'Grade9To11',
+        3: 'Grade12OrGED',
+        4: '1To3yCollege',
+        5: '4yCollegePlus'
+    },
+    'EMPLOY': {
+        1: 'FullTime',
+        2: 'PartTime',
+        3: 'Unemployed',
+        4: 'NotInLaborForce'
+    },
+    'PREG': {
+        1: 'Pregnant',
+        2: 'NotPregnant'
+    },
+    'VET': {
+        1 : 'Veteran',
+        2 : 'NotVeteran'
+    },
+    'LIVARAG': {
+        1 : 'Homeless',
+        2 : 'DependLiving',
+        3 : 'IndependLiving'
+    },
+    'PRIMINC': {
+        1 : 'Wages',
+        2 : 'PublicAssist',
+        3 : 'RetireOrDisable',
+        4 : 'Other',
+        5 : 'None'
+    },
+    'ARRESTS': {
+        0 : '0Arrest',
+        1 : '1Arrest',
+        2 : '2PlusArrest',
+    },
+    'STFIPS': {
+        1: 'AL',
+        2: 'AK',
+        4: 'AZ',
+        5: 'AR',
+        6: 'CA',
+        8: 'CO',
+        9: 'CT',
+        10: 'DE',
+        11: 'DC',
+        12: 'FL',
+        13: 'GA',
+        15: 'HI',
+        16: 'ID',
+        17: 'IL',
+        18: 'IN',
+        19: 'IA',
+        20: 'KS',
+        21: 'KY',
+        22: 'LA',
+        23: 'ME',
+        24: 'MD',
+        25: 'MA',
+        26: 'MI',
+        27: 'MN',
+        28: 'MS',
+        29: 'MO',
+        30: 'MT',
+        31: 'NE',
+        32: 'NV',
+        33: 'NH',
+        34: 'NJ',
+        35: 'NM',
+        36: 'NY',
+        37: 'NC',
+        38: 'ND',
+        39: 'OH',
+        40: 'OK',
+        42: 'PA',
+        44: 'RI',
+        45: 'SC',
+        46: 'SD',
+        47: 'TN',
+        48: 'TX',
+        49: 'UT',
+        50: 'VT',
+        51: 'VA',
+        54: 'WV',
+        55: 'WI',
+        56: 'WY'
+    },
+    'REGION': {
+        1 : 'Northeast',
+        2 : 'Midwest',
+        3 : 'South',
+        4 : 'West'
+    },
+    'DIVISION': {
+        1 : 'NewEngland',
+        2 : 'MiddleAtlantic',
+        3 : 'EastNorthCentral',
+        4 : 'WestNorthCentral',
+        5 : 'SouthAtlantic',
+        6 : 'EastSouthCentral',
+        7 : 'WestSouthCentral',
+        8 : 'Mountain',
+        9 : 'Pacific'
+    },
+    'SERVICES': {
+        1 : 'Detox24hHospitalInpatient',
+        2 : 'Detox24hFreeStandingRes',
+        3 : 'RehabResHospitalNonDetox',
+        4 : 'RehabResShortTerm',
+        5 : 'RehabResLongTerm',
+        6 : 'AmbulatoryIntensiveOutpatient',
+        7 : 'AmbulatoryNonIntensiveOutpatient',
+        8 : 'AmbulatoryDetox'
+    },
+    'METHUSE': {
+        1 : 'MethUse',
+        2 : 'NoMethUse'
+    },
+    'DAYWAIT': {
+        0 : '0DaysWait',
+        1 : '1DaysWait',
+        2 : '8To14DaysWait',
+        3 : '15To30DaysWait',
+        4 : '31PlusDaysWait'
+    },
+    'PSOURCE': {
+        1 : 'Individual',
+        2 : 'DrugCareProvider',
+        3 : 'OtherHealthCareProvider',
+        4 : 'School',
+        5 : 'Employer',
+        6 : 'OtherReferral',
+        7 : 'CourtReferral'
+    },
+    'NOPRIOR': {
+        0 : '0PriorTreatments',
+        1 : '1PriorTreatments',
+        2 : '2PriorTreatments',
+        3 : '3PriorTreatments',
+        4 : '4PriorTreatments',
+        5 : '5PlusPriorTreatments',
+    },
+    'SUB1': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE1': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ1': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE1': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'SUB2': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE2': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ2': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE2': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'SUB3': {
+        1 : 'None',
+        2 : 'Alcohol',
+        3 : 'CokeCrack',
+        4 : 'PotHash',
+        5 : 'Heroin',
+        6 : 'NoScriptMethadone',
+        7 : 'OtherOpioidSynthetics',
+        8 : 'PCP',
+        9 : 'Hallucinogenics',
+        10 : 'MethSpeed',
+        11 : 'OtherAmphetamines',
+        12 : 'OtherStimulants',
+        13 : 'Benzo',
+        14 : 'OtherTranqs',
+        15 : 'Barbiturates',
+        16 : 'OtherSedatives',
+        17 : 'Inhalants',
+        18 : 'OverTheCounter',
+        19 : 'OtherDrugs'
+    },
+    'ROUTE3': {
+        1 : 'Oral',
+        2 : 'Smoking',
+        3 : 'Inhalation',
+        4 : 'Injection',
+        5 : 'Other'
+    },
+    'FREQ3': {
+        1 : 'NoUsePastMonth',
+        2 : 'SomeUse',
+        3 : 'DailyUse'
+    },
+    'FRSTUSE3': {
+        1 : '11yLess',
+        2 : '12To14y',
+        3 : '15To17y',
+        4 : '18To20y',
+        5 : '21To24y',
+        6 : '25To29y',
+        7 : '30yPlus'
+    },
+    'IDU': {
+        0 : 'NoIDU',
+        1 : 'IDU'
+    },
+    'ALCFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'COKEFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'MARFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'HERFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'METHFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OPSYNFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'PCPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'HALLFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'MTHAMFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'AMPHFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'STIMFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'BENZFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'TRNQFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'BARBFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'SEDHPFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'INHFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OTCFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'OTHERFLG': {
+        0 : 'NotReported',
+        1 : 'Reported'
+    },
+    'ALCDRUG': {
+        0 : 'None',
+        1 : 'AlcoholOnly',
+        2 : 'OtherDrugs',
+        3 : 'Alcohol&Drugs'
+    },
+    'DSMCRIT': {
+        1 : 'AlcoholDisorder',
+        2 : 'SubstanceDisorder',
+        3 : 'AlcoholIntoxication',
+        4 : 'AlcoholDependence',
+        5 : 'OpioidDependence',
+        6 : 'CocaineDependence',
+        7 : 'CannabisDependence',
+        8 : 'OtherSubstanceDependence',
+        9 : 'AlcoholAbuse',
+        10 : 'CannabisAbuse',
+        11 : 'OtherSubstanceAbuse',
+        12 : 'OpioidAbuse',
+        13 : 'CocaineAbuse',
+        14 : 'AnxietyDisorder',
+        15 : 'DepressiveDisorder',
+        16 : 'SchizopheniaOrPsychDisorder',
+        17 : 'BipolarDisorder',
+        18 : 'ADDOrBehaviorDisorder',
+        19 : 'OtherMentalHealthCondition'
+    },
+    'PSYPROB': {
+        1 : 'Yes',
+        2 : 'No'
+    },
+    'HLTHINS': {
+        1 : 'PrivateInsurance',
+        2 : 'Medicaid',
+        3 : 'MedicareOrOther',
+        4 : 'None'
+    },
+    'PRIMPAY': {
+        1 : 'SelfPay',
+        2 : 'PrivateInsurance',
+        3 : 'Medicare',
+        4 : 'Medicaid',
+        5 : 'OtherGovtPayment',
+        6 : 'NoCharge',
+        7 : 'Other'
+    },
+    'FREQ_ATND_SELF_HELP': {
+        1 : 'NoAttendance',
+        2 : '1To3TimesPastMonth',
+        3 : '4To7TimesPastMonth',
+        4 : '8To30TimesPastMonth',
+        5 : 'SomeAttendance'
+    }
+}
