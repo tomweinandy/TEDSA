@@ -14,5 +14,6 @@
 
 * Interpretability
   * A statistical primer on Shapley values for model interpretation: https://www.youtube.com/watch?v=VB9uV-x0gtg
-  * Deeper dive into Shapley values: https://christophm.github.io/interpretable-ml-book/shapley.html#shapley 
-
+  * Deeper dive into Shapley values: https://christophm.github.io/interpretable-ml-book/shapley.html#shapley
+  * Documentation on the SHAP package: https://shap.readthedocs.io/en/latest/index.html
+  
