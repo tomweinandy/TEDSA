@@ -12,6 +12,12 @@
 
 * Random Forest
 
+* XGBoost
+  * Interpretability in XGBoost: https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27
+
+* Perils of categorical variables
+  * Encoding and interpretation in LGBM: https://www.kaggle.com/code/mlisovyi/beware-of-categorical-features-in-lgbm/notebook
+
 * Interpretability
   * A statistical primer on Shapley values for model interpretation: https://www.youtube.com/watch?v=VB9uV-x0gtg
   * Deeper dive into Shapley values: https://christophm.github.io/interpretable-ml-book/shapley.html#shapley
