@@ -18,15 +18,15 @@
         2: 'Female'
     },
     'RACE': {
-        1: 'AmericanIndianOrAlaskaNative',
-        2: 'AmericanIndianOrAlaskaNative',
+        1: 'AlaskaNative',
+        2: 'AmericanIndian',
         3: 'AsianOrPacificIslander',
         4: 'Black',
         5: 'White',
-        6: 'AsianOrPacificIslander',
+        6: 'Asian',
         7: 'OtherSingleRace',
         8: 'TwoPlusRaces',
-        9: 'AsianOrPacificIslander'
+        9: 'PacificIslander'
     },
     'ETHNIC': {
         1: 'PuertoRican',
@@ -54,6 +54,13 @@
         3: 'Unemployed',
         4: 'NotInLaborForce'
     },
+   'DETNLF': {
+        1: 'Homemaker',
+        2: 'Student',
+        3: 'RetiredOrDisabled',
+        4: 'InstitutionResident',
+	5: 'OtherNotInLaborForce'
+    },
     'PREG': {
         1: 'Pregnant',
         2: 'NotPregnant'
@@ -65,7 +72,7 @@
     'LIVARAG': {
         1 : 'Homeless',
         2 : 'DependLiving',
-        3 : 'IndependLiving'
+        3 : 'IndependentLiving'
     },
     'PRIMINC': {
         1 : 'Wages',
@@ -131,6 +138,7 @@
         56: 'WY'
     },
     'REGION': {
+	0 : 'USTerritory',
         1 : 'Northeast',
         2 : 'Midwest',
         3 : 'South',
@@ -176,6 +184,16 @@
         5 : 'Employer',
         6 : 'OtherReferral',
         7 : 'CourtReferral'
+    },
+    'DETCRIM': {
+        1 : 'Court',
+        2 : 'Adjudication',
+        3 : 'ProbationOrParole',
+        4 : 'OtherLegalEntity',
+        5 : 'DiversionaryProgram',
+        6 : 'Prison',
+        7 : 'DUI',
+	8 : 'Other'
     },
     'NOPRIOR': {
         0 : '0PriorTreatments',
