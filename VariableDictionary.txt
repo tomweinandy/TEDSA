@@ -42,7 +42,7 @@
         4: 'DivorcedOrWidowed'
     },
     'EDUC': {
-        1: 'GradeOrLess',
+        1: 'Grade8OrLess',
         2: 'Grade9To11',
         3: 'Grade12OrGED',
         4: '1To3yCollege',
@@ -171,7 +171,7 @@
     },
     'DAYWAIT': {
         0 : '0DaysWait',
-        1 : '1DaysWait',
+        1 : '1To7DaysWait',
         2 : '8To14DaysWait',
         3 : '15To30DaysWait',
         4 : '31PlusDaysWait'
