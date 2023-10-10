@@ -1,58 +1,58 @@
 ﻿index,feature_name,feature_label,feature_group,feature_importance,abs_feature_importance
-15,AGE,age,demographic,0.1141089,0.020197611
-17,ETHNIC,ethnicity,demographic,0.025076708,0.004438651
-10,GENDER,gender,demographic,0.025283726,0.004475294
-16,RACE,race,demographic,0.049008664,0.008674678
-56,DETEMPLOY,employment,economic,0.104203545,0.018444335
-31,HLTHINS,health insurance,economic,0.15229256,0.026956233
-12,LIVARAG,living arrangement ,economic,0.10028594,0.017750907
-18,PRIMINC,income source,economic,0.0935287,0.016554856
-32,PRIMPAY,payment source,economic,0.12371083,0.021897182
-52,DIVISION,census division,geographic,0.2629814,0.046548486
-53,REGION,census region,geographic,0.45949882,0.081332646
-0,STFIPS,state code,geographic,0.50834906,0.089979282
-14,DSMCRIT,dsm diagnosis,medical history,0.14701502,0.026022092
-5,NOPRIOR,prior treatments,medical history,0.2531939,0.044816069
-8,PSYPROB,mental disorder,medical history,0.097720765,0.017296863
-33,FREQ_ATND_SELF_HELP,self help group,medical history,0.120218955,0.021279109
-1,EDUC,education,personal history,0.053017158,0.009384193
-11,VET,veteran status,personal history,0.013817145,0.002445675
-7,ARRESTS,arrests,personal history,0.07612511,0.013474368
-2,MARSTAT,marital status,personal history,0.062614575,0.011082964
-9,PREG,pregnant,medical history,0.083000846,0.014691394
-55,ALCDRUG,substance use type,substance use history,0.006173238,0.001092681
-34,ALCFLG,alcohol,substance use history,0.02276759,0.004029931
-43,AMPHFLG,amphetamines,substance use history,0.001751087,0.000309948
-47,BARBFLG,barbiturates,substance use history,5.68E-06,1.00E-06
-45,BENZFLG,benzodiazepines,substance use history,0.007450058,0.001318682
-35,COKEFLG,cocaine,substance use history,0.018672312,0.003305054
-25,FREQ1,primary frequency,substance use history,0.17345493,0.030702033
-26,FREQ2,secondary frequency ,substance use history,0.06416806,0.011357935
-27,FREQ3,tertiary frequency,substance use history,0.05351302,0.009471962
-28,FRSTUSE1,primary first use,substance use history,0.08177956,0.014475224
-29,FRSTUSE2,secondary first use,substance use history,0.05733492,0.01014845
-30,FRSTUSE3,tertiary first use,substance use history,0.03223109,0.005704998
-41,HALLFLG,hallucinogens,substance use history,8.93E-05,1.58E-05
-37,HERFLG,heroin,substance use history,0.05615346,0.009939328
-54,IDU,iv drug,substance use history,0.04274883,0.007566669
-49,INHFLG,inhalants,substance use history,0,0
-36,MARFLG,marijuana,substance use history,0.03479517,0.006158847
-38,METHFLG,methadone,substance use history,0.004488029,0.000794394
-42,MTHAMFLG,methamphetamine,substance use history,0.05188774,0.009184283
-39,OPSYNFLG,opiates,substance use history,0.026946263,0.004769568
-50,OTCFLG,otc meds,substance use history,7.60E-05,1.35E-05
-51,OTHERFLG,other drug,substance use history,0.003513486,0.000621897
-40,PCPFLG,pcp,substance use history,0.000122555,2.17E-05
-22,ROUTE1,primary route,substance use history,0.048375737,0.008562648
-23,ROUTE2,secondary route,substance use history,0.054947753,0.009725914
-24,ROUTE3,tertiary route,substance use history,0.037702627,0.006673476
-48,SEDHPFLG,sedatives,substance use history,0.001024753,0.000181384
-44,STIMFLG,stimulants,substance use history,0.001839302,0.000325562
-19,SUB1,primary substance,substance use history,0.039521966,0.006995505
-20,SUB2,secondary substance,substance use history,0.09339224,0.016530701
-21,SUB3,tertiary substance,substance use history,0.046567697,0.00824262
-46,TRNQFLG,tranquilizers,substance use history,0,0
-4,DETCRIM,ciminal justice referral ,coordination of care,0.06571621,0.011631962
-13,DAYWAIT,days waiting,coordination of care,0.09453256,0.016732541
-6,PSOURCE,referral source,coordination of care,0.307342,0.054400439
 3,SERVICES,treatment service,coordination of care,1.1934859,0.211250515
+0,STFIPS,state code,geographic,0.50834906,0.089979282
+53,REGION,census region,geographic,0.45949882,0.081332646
+6,PSOURCE,referral source,coordination of care,0.307342,0.054400439
+52,DIVISION,census division,geographic,0.2629814,0.046548486
+5,NOPRIOR,prior treatments,medical history,0.2531939,0.044816069
+25,FREQ1,primary frequency,substance use history,0.17345493,0.030702033
+31,HLTHINS,health insurance,economic,0.15229256,0.026956233
+14,DSMCRIT,dsm diagnosis,medical history,0.14701502,0.026022092
+32,PRIMPAY,payment source,economic,0.12371083,0.021897182
+33,FREQ_ATND_SELF_HELP,self help group,medical history,0.120218955,0.021279109
+15,AGE,age,demographic,0.1141089,0.020197611
+56,DETEMPLOY,employment,economic,0.104203545,0.018444335
+12,LIVARAG,living arrangement ,economic,0.10028594,0.017750907
+8,PSYPROB,mental disorder,medical history,0.097720765,0.017296863
+13,DAYWAIT,days waiting,coordination of care,0.09453256,0.016732541
+18,PRIMINC,income source,economic,0.0935287,0.016554856
+20,SUB2,secondary substance,substance use history,0.09339224,0.016530701
+9,PREG,pregnant,medical history,0.083000846,0.014691394
+28,FRSTUSE1,primary first use,substance use history,0.08177956,0.014475224
+7,ARRESTS,arrests,personal history,0.07612511,0.013474368
+4,DETCRIM,ciminal justice referral ,coordination of care,0.06571621,0.011631962
+26,FREQ2,secondary frequency ,substance use history,0.06416806,0.011357935
+2,MARSTAT,marital status,personal history,0.062614575,0.011082964
+29,FRSTUSE2,secondary first use,substance use history,0.05733492,0.01014845
+37,HERFLG,heroin,substance use history,0.05615346,0.009939328
+23,ROUTE2,secondary route,substance use history,0.054947753,0.009725914
+27,FREQ3,tertiary frequency,substance use history,0.05351302,0.009471962
+1,EDUC,education,personal history,0.053017158,0.009384193
+42,MTHAMFLG,methamphetamine,substance use history,0.05188774,0.009184283
+16,RACE,race,demographic,0.049008664,0.008674678
+22,ROUTE1,primary route,substance use history,0.048375737,0.008562648
+21,SUB3,tertiary substance,substance use history,0.046567697,0.00824262
+54,IDU,iv drug,substance use history,0.04274883,0.007566669
+19,SUB1,primary substance,substance use history,0.039521966,0.006995505
+24,ROUTE3,tertiary route,substance use history,0.037702627,0.006673476
+36,MARFLG,marijuana,substance use history,0.03479517,0.006158847
+30,FRSTUSE3,tertiary first use,substance use history,0.03223109,0.005704998
+39,OPSYNFLG,opiates,substance use history,0.026946263,0.004769568
+10,GENDER,gender,demographic,0.025283726,0.004475294
+17,ETHNIC,ethnicity,demographic,0.025076708,0.004438651
+34,ALCFLG,alcohol,substance use history,0.02276759,0.004029931
+35,COKEFLG,cocaine,substance use history,0.018672312,0.003305054
+11,VET,veteran status,personal history,0.013817145,0.002445675
+45,BENZFLG,benzodiazepines,substance use history,0.007450058,0.001318682
+55,ALCDRUG,substance use type,substance use history,0.006173238,0.001092681
+38,METHFLG,methadone,substance use history,0.004488029,0.000794394
+51,OTHERFLG,other drug,substance use history,0.003513486,0.000621897
+44,STIMFLG,stimulants,substance use history,0.001839302,0.000325562
+43,AMPHFLG,amphetamines,substance use history,0.001751087,0.000309948
+48,SEDHPFLG,sedatives,substance use history,0.001024753,0.000181384
+40,PCPFLG,pcp,substance use history,0.000122555,2.17E-05
+41,HALLFLG,hallucinogens,substance use history,8.93E-05,1.58E-05
+50,OTCFLG,otc meds,substance use history,7.60E-05,1.35E-05
+47,BARBFLG,barbiturates,substance use history,5.68E-06,1.00E-06
+49,INHFLG,inhalants,substance use history,0,0
+46,TRNQFLG,tranquilizers,substance use history,0,0
