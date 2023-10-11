@@ -135,7 +135,8 @@
         51: 'VA',
         54: 'WV',
         55: 'WI',
-        56: 'WY'
+        56: 'WY',
+	72: 'PR'
     },
     'REGION': {
 	0 : 'USTerritory',
@@ -145,6 +146,7 @@
         4 : 'West'
     },
     'DIVISION': {
+	0 : 'U.S. territories',
         1 : 'NewEngland',
         2 : 'MiddleAtlantic',
         3 : 'EastNorthCentral',
