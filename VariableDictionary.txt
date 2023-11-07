@@ -411,7 +411,11 @@
         0 : 'None',
         1 : 'AlcoholOnly',
         2 : 'OtherDrugs',
+<<<<<<< HEAD
         3 : 'AlcoholAndDrugs'
+=======
+        3 : 'Alcohol&Drugs'
+>>>>>>> origin/master
     },
     'DSMCRIT': {
         1 : 'AlcoholDisorder',
