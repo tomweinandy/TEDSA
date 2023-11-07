@@ -411,7 +411,7 @@
         0 : 'None',
         1 : 'AlcoholOnly',
         2 : 'OtherDrugs',
-        3 : 'Alcohol&Drugs'
+        3 : 'AlcoholAndDrugs'
     },
     'DSMCRIT': {
         1 : 'AlcoholDisorder',
