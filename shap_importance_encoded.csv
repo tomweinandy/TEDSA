@@ -1,58 +1,58 @@
 feature_name,feature_label,feature_category,feature_importance,feature_importance_out_of_100
-AGE,Age at admission,Demographic,9.43%,1.85%
-ALCDRUG,Substance use type,Substance use history,0.56%,0.11%
-ALCFLG,Alcohol reported at admission,Substance use history,3.33%,0.65%
-AMPHFLG,Other amphetamines reported at admission,Substance use history,0.20%,0.04%
-ARRESTS,Arrests in the past 30 days,Personal history,8.89%,1.74%
-BARBFLG,Barbiturates reported at admission,Substance use history,0.01%,0.00%
-BENZFLG,Benzodiazepines reported at admission,Substance use history,0.53%,0.10%
-COKEFLG,Cocaine/crack reported at admission,Substance use history,0.88%,0.17%
-DAYWAIT,Days waiting to enter substance use treatment,Coordination of care,8.86%,1.74%
-DETCRIM,Detailed criminal justice referral,Coordination of care,3.59%,0.70%
-DETEMPLOY,Employment status,Economic,8.64%,1.69%
-DIVISION,Census division,Geographic,32.30%,6.34%
-DSMCRIT,DSM diagnosis (SuDS 4 SuDS 19),Medical history,11.60%,2.27%
-EDUC,Education,Personal history,4.19%,0.82%
-ETHNIC,Ethnicity,Demographic,1.99%,0.39%
-FREQ_ATND_SELF_HELP,Attendance at substance use self-help groups in the past 30 days,Medical history,10.56%,2.07%
-FREQ1,Frequency of use (primary),Substance use history,16.24%,3.19%
-FREQ2,Frequency of use (secondary),Substance use history,6.03%,1.18%
-FREQ3,Frequency of use (primary),Substance use history,2.39%,0.47%
-FRSTUSE1,Age at first use (primary),Substance use history,5.68%,1.11%
-FRSTUSE2,Age at first use (secondary),Substance use history,3.41%,0.67%
-FRSTUSE3,Age at first use (tertiary),Substance use history,2.68%,0.53%
-GENDER,Gender,Demographic,1.39%,0.27%
-HALLFLG,Hallucinogens reported at admission,Substance use history,0.02%,0.00%
-HERFLG,Heroin reported at admission,Substance use history,4.73%,0.93%
-HLTHINS,Health insurance,Economic,10.06%,1.97%
-IDU,Current IV drug use reported at admission,Substance use history,3.84%,0.75%
-INHFLG,Inhalants reported at admission,Substance use history,0.00%,0.00%
-LIVARAG,Living arrangement,Economic,7.58%,1.49%
-MARFLG,Marijuana/hashish reported at admission,Substance use history,3.63%,0.71%
-MARSTAT,Marital status,Personal history,6.36%,1.25%
-METHFLG,Non-rx methadone reported at admission,Substance use history,0.33%,0.07%
-MTHAMFLG,Methamphetamine reported at admission,Substance use history,4.84%,0.95%
-NOPRIOR,Previous substance use treatment episodes,Medical history,20.42%,4.01%
-OPSYNFLG,Other opiates/synthetics reported at admission,Substance use history,1.06%,0.21%
-OTCFLG,Over-the-counter medication reported at admission,Substance use history,0.01%,0.00%
-OTHERFLG,Other drug reported at admission,Substance use history,0.32%,0.06%
-PCPFLG,PCP reported at admission,Substance use history,0.03%,0.01%
-PREG,Pregnant at admission,Medical history,4.81%,0.94%
-PRIMINC,Source of income/support,Economic,7.69%,1.51%
-PRIMPAY,"Payment source, primary (expected or actual)",Economic,10.10%,1.98%
-PSOURCE,Referral source,Coordination of care,32.00%,6.28%
-PSYPROB,Co-occurring mental and substance use disorders,Medical history,10.34%,2.03%
-RACE,Race,Demographic,3.88%,0.76%
-REGION,Census region,Geographic,32.62%,6.40%
-ROUTE1,Route of administration (primary),Substance use history,3.55%,0.70%
-ROUTE2,Route of administration (secondary),Substance use history,3.84%,0.75%
-ROUTE3,Route of administration (tertiary),Substance use history,3.24%,0.64%
-SEDHPFLG,Other sedatives/hypnotics reported at admission,Substance use history,0.13%,0.03%
-SERVICES,Type of treatment service/setting,Coordination of care,124.68%,24.46%
-STFIPS,Census state FIPS code,Geographic,52.79%,10.35%
-STIMFLG,Other stimulants reported at admission,Substance use history,0.15%,0.03%
-SUB1,Substance use (primary),Substance use history,3.08%,0.60%
-SUB2,Substance use (secondary),Substance use history,6.10%,1.20%
-SUB3,Substance use (tertiary),Substance use history,3.20%,0.63%
-TRNQFLG,Other tranquilizers reported at admission,Substance use history,0.01%,0.00%
-VET,Veteran status,Personal history,0.98%,0.19%
+AGE,Age at admission,Demographic,0.094336,0.018504
+ALCDRUG,Substance use type,Substance use history,0.005582,0.001095
+ALCFLG,Alcohol reported at admission,Substance use history,0.033316,0.006535
+AMPHFLG,Other amphetamines reported at admission,Substance use history,0.001999,0.000392
+ARRESTS,Arrests in the past 30 days,Personal history,0.088932,0.017444
+BARBFLG,Barbiturates reported at admission,Substance use history,0.000053,0.000011
+BENZFLG,Benzodiazepines reported at admission,Substance use history,0.005329,0.001045
+COKEFLG,Cocaine/crack reported at admission,Substance use history,0.008770,0.001720
+DAYWAIT,Days waiting to enter substance use treatment,Coordination of care,0.088551,0.017370
+DETCRIM,Detailed criminal justice referral,Coordination of care,0.035911,0.007044
+DETEMPLOY,Employment status,Economic,0.086387,0.016945
+DIVISION,Census division,Geographic,0.323002,0.063358
+DSMCRIT,DSM diagnosis (SuDS 4 SuDS 19),Medical history,0.115971,0.022748
+EDUC,Education,Personal history,0.041924,0.008224
+ETHNIC,Ethnicity,Demographic,0.019864,0.003896
+FREQ_ATND_SELF_HELP,Attendance at substance use self-help groups in the past 30 days,Medical history,0.105577,0.020709
+FREQ1,Frequency of use (primary),Substance use history,0.162377,0.031851
+FREQ2,Frequency of use (secondary),Substance use history,0.060312,0.011831
+FREQ3,Frequency of use (primary),Substance use history,0.023936,0.004695
+FRSTUSE1,Age at first use (primary),Substance use history,0.056832,0.011148
+FRSTUSE2,Age at first use (secondary),Substance use history,0.034074,0.006684
+FRSTUSE3,Age at first use (tertiary),Substance use history,0.026800,0.005257
+GENDER,Gender,Demographic,0.013943,0.002735
+HALLFLG,Hallucinogens reported at admission,Substance use history,0.000212,0.000042
+HERFLG,Heroin reported at admission,Substance use history,0.047296,0.009277
+HLTHINS,Health insurance,Economic,0.100579,0.019729
+IDU,Current IV drug use reported at admission,Substance use history,0.038405,0.007533
+INHFLG,Inhalants reported at admission,Substance use history,0.000028,0.000006
+LIVARAG,Living arrangement,Economic,0.075824,0.014873
+MARFLG,Marijuana/hashish reported at admission,Substance use history,0.036329,0.007126
+MARSTAT,Marital status,Personal history,0.063577,0.012471
+METHFLG,Non-rx methadone reported at admission,Substance use history,0.003340,0.000655
+MTHAMFLG,Methamphetamine reported at admission,Substance use history,0.048397,0.009493
+NOPRIOR,Previous substance use treatment episodes,Medical history,0.204219,0.040058
+OPSYNFLG,Other opiates/synthetics reported at admission,Substance use history,0.010553,0.002070
+OTCFLG,Over-the-counter medication reported at admission,Substance use history,0.000125,0.000024
+OTHERFLG,Other drug reported at admission,Substance use history,0.003162,0.000620
+PCPFLG,PCP reported at admission,Substance use history,0.000298,0.000059
+PREG,Pregnant at admission,Medical history,0.048132,0.009441
+PRIMINC,Source of income/support,Economic,0.076900,0.015084
+PRIMPAY,"Payment source, primary (expected or actual)",Economic,0.101012,0.019814
+PSOURCE,Referral source,Coordination of care,0.320034,0.062776
+PSYPROB,Co-occurring mental and substance use disorders,Medical history,0.103412,0.020285
+RACE,Race,Demographic,0.038807,0.007612
+REGION,Census region,Geographic,0.326182,0.063982
+ROUTE1,Route of administration (primary),Substance use history,0.035548,0.006973
+ROUTE2,Route of administration (secondary),Substance use history,0.038354,0.007523
+ROUTE3,Route of administration (tertiary),Substance use history,0.032430,0.006361
+SEDHPFLG,Other sedatives/hypnotics reported at admission,Substance use history,0.001275,0.000250
+SERVICES,Type of treatment service/setting,Coordination of care,1.246796,0.244564
+STFIPS,Census state FIPS code,Geographic,0.527863,0.103542
+STIMFLG,Other stimulants reported at admission,Substance use history,0.001455,0.000285
+SUB1,Substance use (primary),Substance use history,0.030824,0.006046
+SUB2,Substance use (secondary),Substance use history,0.061005,0.011966
+SUB3,Substance use (tertiary),Substance use history,0.031985,0.006274
+TRNQFLG,Other tranquilizers reported at admission,Substance use history,0.000084,0.000017
+VET,Veteran status,Personal history,0.009813,0.001925
