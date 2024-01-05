@@ -1,8 +1,8 @@
 feature_category,feature_importance_out_of_100
-coordination of care,0.311855615
-substance use history,0.197930411
-geographic,0.152980671
-medical history,0.135583076
-economic,0.126461898
-demographic,0.037922553
-personal history,0.037265778
+Coordination of care,0.33180000000000004
+Geographic,0.2309
+Substance use history,0.1649
+Medical history,0.1132
+Economic,0.0864
+Personal history,0.04
+Demographic,0.03270000000000001
