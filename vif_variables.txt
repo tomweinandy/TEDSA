@@ -1,0 +1,20 @@
+VIF = 2597980748411.016 > 1.729 (with R^2 of 0.422) so drop SUB2_OtherTranqs
+VIF = 2277996776616.336 > 1.729 (with R^2 of 0.422) so drop SUB3_Barbiturates
+VIF = 6746965733888.384 > 1.729 (with R^2 of 0.422) so drop SUB3_OverTheCounter
+VIF = 14251897554969.924 > 1.729 (with R^2 of 0.422) so drop SUB3_Inhalants
+VIF = 1082465960190.0 > 1.729 (with R^2 of 0.422) so drop SUB2_PCP
+VIF = 1098840948486.152 > 1.729 (with R^2 of 0.422) so drop SUB2_OtherSedatives
+VIF = 457218236281.269 > 1.729 (with R^2 of 0.422) so drop SUB2_Hallucinogenics
+VIF = 614322688224.048 > 1.729 (with R^2 of 0.422) so drop SUB3_NoScriptMethadone
+VIF = 499595055451.827 > 1.729 (with R^2 of 0.422) so drop SUB3_OtherStimulants
+VIF = 79624466321.381 > 1.729 (with R^2 of 0.422) so drop SUB1_NoScriptMethadone
+VIF = 9742157347.169 > 1.729 (with R^2 of 0.422) so drop SUB3_OtherAmphetamines
+VIF = 15800496185.899 > 1.729 (with R^2 of 0.422) so drop SUB3_OtherDrugs
+VIF = 7466792496.02 > 1.729 (with R^2 of 0.422) so drop SUB2_Alcohol
+VIF = 17733604614.024 > 1.729 (with R^2 of 0.422) so drop SUB3_OtherOpioidSynthetics
+VIF = 355327596936.407 > 1.729 (with R^2 of 0.422) so drop SUB3_MethSpeed
+VIF = 59446397489.018 > 1.729 (with R^2 of 0.422) so drop SUB3_CokeCrack
+VIF = 268247044336.798 > 1.729 (with R^2 of 0.422) so drop SUB2_Benzo
+VIF = 41697486978.751 > 1.729 (with R^2 of 0.422) so drop ALCDRUG_AlcoholAndDrugs
+VIF = inf > 1.729 (with R^2 of 0.422) so drop MARFLG_Reported
+
