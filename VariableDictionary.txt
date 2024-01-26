@@ -146,7 +146,7 @@
         4 : 'West'
     },
     'DIVISION': {
-	0 : 'U.S. territories',
+	0 : 'USTerritories',
         1 : 'NewEngland',
         2 : 'MiddleAtlantic',
         3 : 'EastNorthCentral',
