@@ -70,7 +70,7 @@
         2 : 'NotVeteran'
     },
     'LIVARAG': {
-        1 : 'Homeless',
+        1 : 'Unhoused',
         2 : 'DependLiving',
         3 : 'IndependentLiving'
     },
